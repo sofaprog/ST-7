@@ -22,7 +22,7 @@ public class Task3 {
             "&wind_speed_unit=ms";
 
     private static final String OUTPUT_FILE = "result/forecast.txt";
-    private static final String LINE = "-".repeat(65);
+    private static final String LINE = "-----------------------------------------------------------------";
 
     public static void fetchWeather(WebDriver driver) {
         try {
@@ -88,4 +88,4 @@ public class Task3 {
             System.err.println("Не удалось сохранить файл: " + ex.getMessage());
         }
     }
-}
+}   
